@@ -18,6 +18,8 @@
 
 </template>
 
+
+
 <script>
 export default {
   data() {
@@ -124,75 +126,6 @@ export default {
 
 <style lang="stylus" scoped>
 @import '..\assets\style.styl'
-*
-  position relative  
-  margin 0
-  padding 0
-  font-family '微軟正黑體'
 
-.avalon
-  size(100%,90vh)
-  .screen
-    overflow hidden
-    white-space nowrap
-    size(100%,70%)
-    border 1px solid #fff
-    background-color #222
-    color #fff
-    font-size 300%
-    .result
-      z-index 2
-      transition 0.5s
-      size(100%,100%)
-      background-color #fff
-      color #222
-      flexCenter(center,flex-start)
-      flex-direction column
-      h4
-        margin-left 10%
-        margin-bottom 16px
-      .seat
-        font-size 50%
-        margin-left 10%
-    .cards
-      size(100%,100%)
-      transition 0.5s
-      .cover
-        size(200%,100%)
-        display inline-block
-        .space
-          size(50%,100%)
-          flexCenter()
-          position absolute
-          left 0
-        .card
-          right 0
-          position absolute
-          size(50%,100%)
-          flexCenter()
-          flex-direction column
-          img
-            border-radius 16px
-            size(100%,80%)
-          .info
-            flexCenter()
-            flex-direction column
-            size(100%,20%)
-            h3
-              font-size 50%
-  .use
-    size(100%,30%)
-    position absolute
-    bottom 0
-    flexCenter()
-    button 
-      size(100%,100%)
-      font-size 300%
-      text-transform capitalize
-      background-color #222
-      color #fff
-      border none
-      cursor pointer
-      margin 0px 1px
 
 </style>

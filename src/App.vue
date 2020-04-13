@@ -5,7 +5,11 @@
   #nav
     router-link(to='/') Home
     router-link(to='/tenRoles') 10人局
+    router-link(to='/nineRoles') 9人局
     router-link(to='/eightRoles') 8人局
+    router-link(to='/sevenRoles') 7人局
+    router-link(to='/sixRoles') 6人局
+    router-link(to='/fiveRoles') 5人局
   
 
 </template>

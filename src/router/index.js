@@ -3,7 +3,11 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
 import tenRoles from '../views/tenRoles.vue'
+import nineRoles from '../views/nineRoles.vue'
 import eightRoles from '../views/eightRoles.vue'
+import sevenRoles from '../views/sevenRoles.vue'
+import sixRoles from '../views/sixRoles.vue'
+import fiveRoles from '../views/fiveRoles.vue'
 
 Vue.use(VueRouter)
 
@@ -27,9 +31,29 @@ const routes = [
     component: tenRoles
   },
   {
+    path: '/nineRoles',
+    name: 'nineRoles',
+    component: nineRoles
+  },
+  {
     path: '/eightRoles',
     name: 'eightRoles',
     component: eightRoles
+  },
+  {
+    path: '/sevenRoles',
+    name: 'sevenRoles',
+    component: sevenRoles
+  },
+  {
+    path: '/sixRoles',
+    name: 'sixRoles',
+    component: sixRoles
+  },
+  {
+    path: '/fiveRoles',
+    name: 'fiveRoles',
+    component: fiveRoles
   },
 ]
 
