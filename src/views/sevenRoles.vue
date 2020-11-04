@@ -69,7 +69,7 @@ export default {
       this.merlinSee = []
       this.merlinSee.push(this.sevenRoles.findIndex(x=>x.name==="刺客")+1)
       this.merlinSee.push(this.sevenRoles.findIndex(x=>x.name==="莫甘娜")+1)
-      this.merlinSee.push(this.tenRoles.findIndex(x=>x.name==="奧伯倫")+1)
+      this.merlinSee.push(this.sevenRoles.findIndex(x=>x.name==="奧伯倫")+1)
       this.merlinSee.sort(()=> {
         return Math.random()>0.5?-1:1
       })
